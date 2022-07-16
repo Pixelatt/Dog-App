@@ -11,6 +11,8 @@
 		D96559DE2882605500ABD4BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96559DD2882605500ABD4BB /* ContentView.swift */; };
 		D96559E02882605600ABD4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96559DF2882605600ABD4BB /* Assets.xcassets */; };
 		D96559E32882605600ABD4BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96559E22882605600ABD4BB /* Preview Assets.xcassets */; };
+		D96559EA2882606A00ABD4BB /* DogImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96559E92882606A00ABD4BB /* DogImageView.swift */; };
+		D96559EC2882609100ABD4BB /* DogFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96559EB2882609100ABD4BB /* DogFactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D96559DD2882605500ABD4BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D96559DF2882605600ABD4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96559E22882605600ABD4BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D96559E92882606A00ABD4BB /* DogImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageView.swift; sourceTree = "<group>"; };
+		D96559EB2882609100ABD4BB /* DogFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D96559DD2882605500ABD4BB /* ContentView.swift */,
 				D96559DF2882605600ABD4BB /* Assets.xcassets */,
 				D96559E12882605600ABD4BB /* Preview Content */,
+				D96559E92882606A00ABD4BB /* DogImageView.swift */,
+				D96559EB2882609100ABD4BB /* DogFactView.swift */,
 			);
 			path = "Dog App";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D96559DE2882605500ABD4BB /* ContentView.swift in Sources */,
+				D96559EA2882606A00ABD4BB /* DogImageView.swift in Sources */,
 				D96559DC2882605500ABD4BB /* Dog_AppApp.swift in Sources */,
+				D96559EC2882609100ABD4BB /* DogFactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
