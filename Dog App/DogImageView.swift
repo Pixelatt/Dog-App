@@ -9,7 +9,13 @@ import SwiftUI
 
 struct DogImageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        AsyncImage(url: URL(string: "https://bestlifeonline.com/dog-facts/")!) { image in image
+                .resizable()
+                .scaledToFit()
+        } placeholder: {
+            ProgressView()
+                .progressViewStyle(.circular)
+        }
     }
 }
 

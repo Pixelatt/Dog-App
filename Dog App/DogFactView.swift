@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct DogFactView: View {
+    
+    @ObservedObject var dogFactManager = DogFactManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if let fact = dogFactManager.fact {
+                Text(fact.fact)
+                    .padding()
+            } else {
+                ProgressView()
+                    .progressViewStyle(.circular)
+            }
+        }
+        .onAppear {
+            dogFactManager.getDogFact()
+        }
     }
 }
 
